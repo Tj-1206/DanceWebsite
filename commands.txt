@@ -1,0 +1,10 @@
+git config --global user.name "Tejaswini Joshi"
+git config --global user.email "joshitejaswini12@gmail.com"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial Commit"
+git status
+Generation of ssh key & authentication
+git remote add origin <ssh url.git>
+git push origin master
