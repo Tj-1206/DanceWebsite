@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -4px 20px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+    padding-right: 4px;
+}
+
+#navbar{
+    background-color: #ca5252;
+    padding: 13px 14px;
+    font-family: 'Michroma', sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Michroma', sans-serif;
+    font-size: 35px;
+    background: center/cover no-repeat url('https://images.unsplash.com/photo-1483931430372-226f194be3a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    height: 600px;
+    background-color: red;
+}
+
+#introSection div.small{
+    font-size: 27px;
+    padding: 5px;
+}
+
+#missionSection{
+    background-color: white;
+    height: 330px;
+    width: 67%;
+    margin: auto;
+}
+
+#missionSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Michroma', sans-serif;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 20px;
+    height: 209px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+    margin-top: 17px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 10px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+
+#sponsorsSection{
+    background-color: #f4cdcd;
+    height: 330px;
+}
+
+#sponsorsSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Michroma', sans-serif;
+}
+
+#sponsors{
+    height: 181px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+
+.sponsorImg{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    height: 60px;
+    background-color: black;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Michroma', sans-serif;
+}

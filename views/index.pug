@@ -1,0 +1,49 @@
+doctype html
+html
+  head
+    title Tj's Dance Academy
+    style
+      include ../static/style.css
+  body
+    section#introSection 
+      div Welcome to Tj's Dance Academy!
+      div.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+      h2 Our Mission
+      div.card 
+        h3 Dance Perfection
+        div.card-box 
+          div.card-img
+            img(src="../static/img/1.jpg")
+          div.card-content 
+            p This is the best dance academy 
+      div.card 
+        h3 Dance the way you like
+        div.card-box 
+          div.card-img
+            img(src="../static/img/2.jpg")
+          div.card-content 
+            p This is the best dance academy 
+      div.card 
+        h3 Expert Teaching
+        div.card-box 
+          div.card-img
+            img(src="../static/img/3.jpg")
+          div.card-content 
+            p This is the best dance academy
+
+    section#sponsorsSection 
+      h2  Our sponsors 
+      div#sponsors
+        img(src="../static/img/applelogo.png", alt="Sponsor Logo" class="sponsorImg")
+        img(src="../static/img/audi.png", alt="Sponsor Logo" class="sponsorImg")
+        img(src="../static/img/hplogo.png", alt="Sponsor Logo" class="sponsorImg")
+        img(src="../static/img/tata.png", alt="Sponsor Logo" class="sponsorImg")
+        img(src="../static/img/tesla.png", alt="Sponsor Logo" class="sponsorImg")
+
+    footer#footer 
+      | Copyright © 2022 TjDanceAcademy.com | All rights reserved 
+
+    script
+      include ../static/index.js 
